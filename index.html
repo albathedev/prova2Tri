@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <header class="header">
+        <p>Calculadora Maromba</p>
+    </header>
+
+    <div class="container">
+        <form>
+            <label for="altura"><p>Altura</p></label>
+            <input type="number" id="altura" value="altura" placeholder="Digite sua altura aqui">
+            <label for="peso"><p>Peso</p></label>
+            <input type="number" id="peso" value="peso" placeholder="Digite seu peso aqui">
+            <br>
+            <input type="reset" value="Limpar" id="limpar">
+            <input type="submit" value="Calcular" id="Calcular" onclick="calcular()">
+        </form>
+            
+            <p>Resultado</p>
+  
+            <table>
+                <tr>
+                    <th>IMC</th>
+                    <th>Classificação</th>
+                    <th>Obesidade</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>x</td>
+                    <td>y</td>
+                    <td>z</td>
+                </tr>
+            </table>
+                
+    </div>
+
+    <footer class="footer">
+        <ul>
+            <li>Antônio Alba Haudenschild</li>
+            <li>Segundo ano, Turma B - DESI</li>
+            <li>Escola S, Sesi Senai CTAI</li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
