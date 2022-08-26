@@ -5,9 +5,10 @@
 //botão calcular
 
 function calculo (){
-    let altura = document.getElementById('altura')
-    let peso = document.getElementById('peso')
+    let altura = (document.getElementById('altura').value)/100
+    let peso = document.getElementById('peso').value
 
-    let IMC = peso / (altura * altura)
+    let IMC = parseFloat(altura) / parseFloat(peso)*parseFloat(peso)
+    document.getElementById('result').value=IMC
     console.log(IMC)
 }
